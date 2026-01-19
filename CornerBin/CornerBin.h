@@ -44,7 +44,7 @@ public:
 	void OpenSettingsDlg(void);
 private:
 	// This mutex keeps track if the application is running, so that two copies are not run simoltaneously.
-	HANDLE m_hMutex;
+	HANDLE m_hMutex = NULL;
 };
 
 extern CCornerBinApp theApp;

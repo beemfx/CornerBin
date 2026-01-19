@@ -14,6 +14,7 @@
     <ProjectGuid>{09C29A49-F183-4D68-A3AF-75B51E4A5CF3}</ProjectGuid>
     <RootNamespace>CornerBin</RootNamespace>
     <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -21,7 +22,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Static</UseOfMfc>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -29,7 +30,7 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Static</UseOfMfc>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -43,12 +44,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(BEEMOUT)\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(BEEMOUT)\$(ProjectName)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)_BUILD\$(ProjectName)\$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -99,7 +100,7 @@
       <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <PostBuildEvent>
-      <Command>xcopy /y "$(TargetPath)" "$(SolutionDir)dist\"</Command>
+      <Command>xcopy /y "$(TargetPath)" "$(SolutionDir)_DIST\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

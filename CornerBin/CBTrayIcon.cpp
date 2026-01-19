@@ -18,6 +18,7 @@ CCBTrayIcon::CCBTrayIcon(void)
 	, m_bIsFull(FALSE)
 	, m_IcoEmpty(NULL)
 	, m_IcoFull(NULL)
+	, m_hwndParent(NULL)
 {
 
 }

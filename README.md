@@ -1,6 +1,6 @@
 # CornerBin
 
-CornerBin - The system tray recycle bin.
+[CornerBin - The system tray recycle bin.](https://www.beemsoft.com/CornerBin)
 
 &copy; 2011 Beem Media. All rights reserved.
 

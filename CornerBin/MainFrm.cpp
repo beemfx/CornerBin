@@ -140,9 +140,17 @@ BOOL CMainFrame::OnWndMsg(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* p
 			((CCornerBinApp*)::AfxGetApp())->OpenSettingsDlg();
 			break;
 		case WM_LBUTTONDBLCLK:
-			((CCornerBinApp*)::AfxGetApp())->OnDblClkTrayIcon();
+		{
+			if (GetAsyncKeyState(VK_SHIFT) != 0)
+			{
+				((CCornerBinApp*)::AfxGetApp())->OpenSettingsDlg();
+			}
+			else
+			{
+				((CCornerBinApp*)::AfxGetApp())->OnDblClkTrayIcon();
+			}
 
-		break;
+		} break;
 		
 		}
 		return TRUE;
