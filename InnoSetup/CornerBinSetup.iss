@@ -7,16 +7,16 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{7368B213-598B-4240-8C94-65420F2F9B3D}
 AppName=CornerBin
-AppVersion=1.0.0.1
+AppVersion=1.0.0.2
 ;AppVerName=CornerBin 1.0.0
-AppPublisher=Beem Software
-AppPublisherURL=http://cornerbin.sourceforge.net
-AppSupportURL=http://cornerbin.sourceforge.net
-AppUpdatesURL=http://cornerbin.sourceforge.net
-DefaultDirName={pf}\Beem Software\CornerBin
+AppPublisher=Beem Media
+AppPublisherURL=https://www.beemsoft.com/CornerBin
+AppSupportURL=https://www.beemsoft.com/CornerBin
+AppUpdatesURL=https://www.beemsoft.com/CornerBin
+DefaultDirName={commonpf}\CornerBin
 DefaultGroupName=CornerBin
 AllowNoIcons=yes
-OutputDir=D:\Projects\Utilities\CornerBin\Installer
+OutputDir=../_DIST
 OutputBaseFilename=cornerbin-installer
 Compression=lzma
 SolidCompression=yes
@@ -25,15 +25,16 @@ SolidCompression=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "..\CornerBin.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\readme.html"; DestDir: "{app}";
+Source: "..\_DIST\CornerBin.exe"; DestDir: "{app}"; Flags: ignoreversion
+; TODO: Better reamde. Source: "..\README.md"; DestDir: "{app}";
+Source: "..\LICENSE"; DestDir: "{app}";
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
 Name: "{group}\CornerBin"; Filename: "{app}\CornerBin.exe"
 Name: "{group}\Settings"; Filename: "{app}\CornerBin.exe"; Parameters: "-settings"
-Name: "{group}\Help and Support"; Filename: "{app}\readme.html"
-;Name: "{group}\{cm:ProgramOnTheWeb,CornerBin}"; Filename: "http://cornerbin.sourceforge.net"
+;Name: "{group}\Help and Support"; Filename: "{app}\readme.html"
+;Name: "{group}\{cm:ProgramOnTheWeb,CornerBin}"; Filename: "https://www.beemsoft.com/CornerBin"
 ;Name: "{group}\{cm:ProgramOnTheWeb,Beem Software}"; Filename: "http://www.beemsoft.com"
 Name: "{group}\{cm:UninstallProgram,CornerBin}"; Filename: "{uninstallexe}"
 
