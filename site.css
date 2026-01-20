@@ -1,10 +1,31 @@
 body {
     background-color: black;
     color: white;
+    max-width: 800px;
+    margin: auto;
+}
+
+.content {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 table {
     background-color: #000000;
     color: white;
     border: 1px solid white;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #1E90FF;
 }

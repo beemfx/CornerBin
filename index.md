@@ -1,8 +1,6 @@
 ---
 title: CornerBin - The System Tray Recycle Bin
 ---
-<link rel="stylesheet" href="{{'site.css' | relative_url}}" />
-
 # CornerBin - The System Tray Recycle Bin
 
 <table>
@@ -88,14 +86,6 @@ This works the same as the Empty icon filename.
 This text can be whatever message the user would like to appear when the mouse hovers
 over the CornerBin icon. By default it is "Recycle Bin", but if a user prefers it to
 use the text "Trash Bin" they could so change it. Or change it to whatever they want.
-
-
-### Additional Information
-This application is open source, so it may be modified, udpated, patched, or otherwise
-developed. The main page for this open source product is listed above, any specific
-inquiries may be address to <a href="http://www.beemsoft.com/home/index.php?content=contact">http://www.beemsoft.com/home/index.php?content=contact</a> but
-there are no guarantees that they will be address.
-</body>
 
 ### Version History
 * 1.0.0.0 - Initial release.
