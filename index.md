@@ -5,16 +5,15 @@ title: CornerBin - The System Tray Recycle Bin
 
 # CornerBin - The System Tray Recycle Bin
 
-<pre>
-Author:   Blaine Myers
-Company:  Beem Media (<a href="https://www.beemsoft.com">https://www.beemsoft.com</a>)
-Version:  1.0.0.2
-Date:     January 15, 2011
-Licence:  MIT
-Website:  <a href="https://beemfx.github.io/CornerBin">https://beemfx.github.io/CornerBin</a>
-Source:   <a href="https://github.com/beemfx/CornerBin">https://github.com/beemfx/CornerBin</a>
-Download: <a href="https://github.com/beemfx/CornerBin/releases/download/v1.0.0.2/cornerbin-installer.exe">Version 1.0.0.2</a>
-</pre>
+<table>
+<tr><td>Author:</td><td>Blaine Myers</td></tr>
+<tr><td>Company:</td><td><a href="https://www.beemsoft.com">Beem Media</a></td></tr>
+<tr><td>Original Release:</td><td>January 15, 2011</td></tr>
+<tr><td>Licence:</td><td>MIT</td></tr>
+<tr><td>Website:</td><td><a href="https://beemfx.github.io/CornerBin">https://beemfx.github.io/CornerBin</a></td></tr>
+<tr><td>Source:</td><td><a href="https://github.com/beemfx/CornerBin">https://github.com/beemfx/CornerBin</a></td></tr>
+<tr><td>Latest Release:</td><td><a href="https://github.com/beemfx/CornerBin/releases/download/v1.0.0.2/cornerbin-installer.exe">Version 1.0.0.2</a></td></tr>
+</table>
 
 ### [Download Version 1.0.0.2](https://github.com/beemfx/CornerBin/releases/download/v1.0.0.2/cornerbin-installer.exe)
 
