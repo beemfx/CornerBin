@@ -1,7 +1,7 @@
 ---
 title: CornerBin - The System Tray Recycle Bin
 ---
-<link rel="stylesheet" href="site.css" />
+<link rel="stylesheet" href="{{'site.css' | relative_url}}" />
 
 # CornerBin - The System Tray Recycle Bin
 
